@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+    table,th,tr,td
+    {Border:2px Solid Blue;
+    Border-collapse:Collapse;}
+img{
+    Height:100;
+    Width:100;
+    background-color:aqua;
+    transition: all 5s;
+}
+img:hover{ 
+    transform: rotate(360 deg);
+    /* transform: rotateX('50 deg'); */
+    cursor: pointer;
+}
+
+    
+</style>    
+
+</head>
+
+<body>
+<table>
+<tr>
+<th>Image</th>
+<th>Image</th> 
+<th>Image</th>   
+</tr> 
+
+<tr>
+
+<td><img src="./9522aa6e9c4f747e2900a0bf0638c89f.jpg"Width=100 Height=100></td> 
+<td><img src="./42eea0d5ac60e9b37131a17b38912d4f.jpg"width=100 Height=100></td>
+<td><img src="./60ce3c299693cb1d6b481332ec071483.jpg"width=100 Height=100></td>   
+</tr>
+
+<tr>
+<td><img src="./21330a35aabcb6ea5f18634ea10781fd.jpg" Width=100 Height=100></td>    
+<td><img src="./0542b88707981ba784b6b2e406e58287.jpg"width=100 Height=100></td>
+<td><img src="./6668e05f8cc148ba89eb9f303d93e3eb.jpg"width=100 Height=100></td>
+</tr>
+
+<tr>
+<td><img src="./bf591a630f104d7a02cb1f706d0c6278.jpg"Width=100 Height=100></td>  
+<td><img src="./c9e794d91d4b049fd3e3dae0afab9ac3.jpg"Width=100 Height=100></td> 
+<td><img src="./d6bd537f8fc745b0fa45b9d37dc91374.jpg"Width=100 Height=100></td> 
+</tr>
+
+<tr>
+<td><img src="./d8fe7d3a82a43c9a4a700e1118b13d49.jpg"Height=100 width=100></td> 
+<td><img src="./d0812f938dace1a9c3f17bd6f82eaaf9.jpg"Height=100 Width=100></td>
+<td><img src="./db9825c5e9284d0b4cc177c964caf706.jpg"Height=100 Width=100></td>
+</tr>
+
+<tr>
+<td><img src="e0adedd14f7244fd98a1f5f3840ec08c.jpg"Height=100 Width=100></td>
+<td><img src="8e45315765c7791b5b1605aff93f0220-PORTRAIT_BLUR.jpg"Height=100 width=100></td>   
+<td><img src="60ce3c299693cb1d6b481332ec071483.jpg"Height=100 Width=100></td> 
+</tr>
+</table>    
+</body>
+</html>
